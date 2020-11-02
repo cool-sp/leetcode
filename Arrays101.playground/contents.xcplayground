@@ -3,5 +3,18 @@
     <pages>
         <page name='FindMaxConsecutiveOnes'/>
         <page name='FindNumbers'/>
+        <page name='SortedSquares'/>
+        <page name='DuplicateZeros'/>
+        <page name='Merge'/>
+        <page name='RemoveElement'/>
+        <page name='RemoveDuplicates'/>
+        <page name='CheckIfExist'/>
+        <page name='ValidMountainArray'/>
+        <page name='ReplaceElements'/>
+        <page name='MoveZeroes'/>
+        <page name='SortArrayByParity'/>
+        <page name='HeightChecker'/>
+        <page name='ThirdMax'/>
+        <page name='FindDisappearedNumbers'/>
     </pages>
 </playground>
