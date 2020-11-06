@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' buildActiveScheme='true'>
+    <pages>
+        <page name='MyLinkedList'/>
+        <page name='HasCycle'/>
+        <page name='detectCycle'/>
+        <page name='GetIntersectionNode'/>
+        <page name='RemoveNthFromEnd'/>
+        <page name='ReverseList'/>
+        <page name='RemoveElements'/>
+        <page name='OddEvenList'/>
+        <page name='IsPalindrome'/>
+        <page name='MergeTwoLists'/>
+        <page name='AddTwoNumbers'/>
+        <page name='Flatten'/>
+        <page name='CopyRandomList'/>
+        <page name='RotateRight'/>
+    </pages>
+</playground>
