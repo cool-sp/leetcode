@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='macos' buildActiveScheme='true'>
+    <pages>
+        <page name='SwapPairs'/>
+        <page name='ReverseList'/>
+        <page name='SearchBST'/>
+        <page name='GetRow'/>
+        <page name='Fib'/>
+        <page name='ClimbStairs'/>
+        <page name='MaxDepth'/>
+        <page name='MyPow'/>
+        <page name='MergeTwoLists'/>
+        <page name='KthGrammar'/>
+        <page name='GenerateTrees'/>
+    </pages>
+</playground>
