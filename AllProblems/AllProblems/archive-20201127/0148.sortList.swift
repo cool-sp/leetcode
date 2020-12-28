@@ -36,7 +36,7 @@ func sortList(_ head: ListNode?) -> ListNode? {
             // save the unmerged node, for the next round
             unmerged = curr
 
-            let mergedSubList = mergeList(node1, node2)
+            let mergedSubList = mergeList148(node1, node2)
             if mergedHead == nil { mergedHead = mergedSubList}
             mergedTail?.next = mergedSubList
             mergedTail = getListTail(mergedSubList)
@@ -80,7 +80,7 @@ private func getListTail(_ list: ListNode?) -> ListNode? {
     return node
 }
 
-private func mergeList(_ listA: ListNode?, _ listB: ListNode?) -> ListNode? {
+private func mergeList148(_ listA: ListNode?, _ listB: ListNode?) -> ListNode? {
     if listA == nil { return listB }
     if listB == nil { return listA }
 
