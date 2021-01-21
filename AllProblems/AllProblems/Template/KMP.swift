@@ -36,18 +36,18 @@ private func kmpSearch(_ s: String, _ p: String) -> [Int] {
     return res
 }
 
-private func buildNextTable(_ s: [Character]) -> [Int] {
-    guard s.count > 0 else { return [] }
+private func buildNextTable(_ p: [Character]) -> [Int] {
+    guard p.count > 0 else { return [] }
 
     var next = [0, 0]
     var j = 0
 
-    for i in 1..<s.count {
-        while j > 0 && s[j] != s[i] {
+    for i in 1..<p.count {
+        while j > 0 && p[j] != p[i] {
             j = next[j]
         }
 
-        if s[i] == s[j] {
+        if p[i] == p[j] {
             j += 1
         }
         next.append(j)

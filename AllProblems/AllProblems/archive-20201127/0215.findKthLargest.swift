@@ -64,6 +64,20 @@ private func swap(_ nums: inout [Int], _ pos1: Int, _ pos2: Int) {
 }
 
 
+//int findKthLargest(vector<int>& nums, int k) {
+//    priority_queue<int, vector<int>, less<int>>queue;
+//
+//    for (int i=0; i<nums.size(); i++) {
+//        queue.push(nums[i]);
+//    }
+//
+//    for (int j=0; j<k-1; j++) {
+//        queue.pop();
+//    }
+//    return queue.top();
+//}
+
+
 // The following code below is to use the concept of search tree
 // after we build a search tree, we know how many nodes are at left and right
 // then we will know the kth largest element is located at left or right
